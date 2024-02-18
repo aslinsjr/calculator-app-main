@@ -19,12 +19,12 @@ Frontend Mentor challenges help improve my coding skills by building realistic p
 
 ### Screenshot
 
-![](/images/FireShot%20Capture%20012%20-%20Frontend%20Mentor%20-%20Calculator%20app%20-%20127.0.0.7.png
+![](./images/FireShot%20Capture%20012%20-%20Frontend%20Mentor%20-%20Calculator%20app%20-%20127.0.0.7.png)
 
 ### Links
 
-- Solution URL: [Repository](https://your-solution-url.com)
-- Live Site URL: [GitHub Page](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/aslinsjr/calculator-app-main)
+- Live Site URL: [GitHub Page](https://aslinsjr.github.io/calculator-app-main/)
 
 ## My process
 
