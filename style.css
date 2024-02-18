@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* App Container */
+.calc-app-container {
+    width: 350px;
+    padding: 1rem;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.theme-container {
+    display: flex;
+    align-items: flex-end;
+    gap: 0.5rem;
+}
+
+.theme-number {
+    display: flex;
+    gap: 0.6rem;
+    justify-content: center;
+    font-size: 0.7rem;
+}
+
+.changer {
+    width: 2.5rem;
+    height: 0.5rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    padding: 0.3rem;
+    gap: 5px;
+    cursor: pointer;
+}
+
+.changer-btn {
+    background-color: red;
+    border: none;
+    width: 10px;
+    height: 10px;
+    pointer-events: none;
+    border-radius: 50%;
+    visibility: hidden;
+}
+
+.active {
+    visibility: visible;
+}
+
+/* Main */
+#visor-container {
+    width: 100%;
+    height: 100px;
+    background-color: hsl(224, 36%, 15%);
+    margin: 1rem 0;
+    border-radius: 5px;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.result {
+    font-size: 4rem;
+    padding: 1rem;
+    overflow: hidden;
+}
+
+#numbers-and-functions {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 1rem;
+    gap: 1rem;
+    border-radius: 5px;
+}
+
+.calc-btn {
+    padding: 0.75rem 0.5rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+#reset-btn {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    color: white;
+}
+
+#equal-btn {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    color: white;
+}
+
+/* Theme 1 */
+body {
+    background-color: hsl(222, 26%, 31%);
+}
+
+.header {
+    color: hsl(0, 0%, 100%);
+}
+
+#numbers-and-functions {
+    background-color: hsl(223, 31%, 20%);
+}
+
+.calc-btn {
+    color: hsl(221, 14%, 31%);
+    box-shadow: 0 5px 2px hsl(224, 28%, 35%);
+    background-color: hsl(0, 0%, 85%);
+}
+
+.calc-btn:hover {
+    background-color: white;
+}
+
+#del-btn {
+    background-color:  hsl(225, 21%, 49%);
+    color: white;
+}
+
+#reset-btn {
+    background-color:  hsl(225, 21%, 49%);
+}
+
+#reset-btn:hover,
+#del-btn:hover {
+    background-color: rgb(134, 150, 196);
+}
+
+#equal-btn {
+    background-color: hsl(6, 63%, 50%);
+    box-shadow: 0 5px 2px hsl(6, 70%, 34%);
+}
+
+#equal-btn:hover {
+    background-color: hsl(6, 70%, 59%);
+}
+
+/* Theme 2 */
+.text-theme2 {
+    color: hsl(221, 14%, 31%);
+}
+
+/* Theme 3 */
+.text-theme3 {
+    color: hsl(52, 100%, 62%);
+}
+
+/* Footer */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+
+.attribution a { 
+    color: white; 
+}

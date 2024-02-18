@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+  <title>Frontend Mentor | Calculator app</title>
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Scripts -->
+  <script src="script.js" defer></script>
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="calc-app-container">
+    <header class="header">
+      <h1 id="app-title">calc</h1>
+      <div class="theme-container">
+        <h2>theme</h2>
+        <div class="theme-changer">
+          <p class="theme-number">
+            <span>1</span>
+            <span>2</span>
+            <span>3</span>
+          </p>
+          <div class="changer">
+            <div class="changer-btn active"></div>
+            <div class="changer-btn"></div>
+            <div class="changer-btn"></div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section id="visor-container">
+        <div class="result" id="current-operation"></div>
+      </section>
+      <section id="numbers-and-functions">
+        <button class="calc-btn">7</button>
+        <button class="calc-btn">8</button>
+        <button class="calc-btn">9</button>
+        <button class="calc-btn" id="del-btn">del</button>
+        <button class="calc-btn">4</button>
+        <button class="calc-btn">5</button>
+        <button class="calc-btn">6</button>
+        <button class="calc-btn">+</button>
+        <button class="calc-btn">1</button>
+        <button class="calc-btn">2</button>
+        <button class="calc-btn">3</button>
+        <button class="calc-btn">-</button>
+        <button class="calc-btn">.</button>
+        <button class="calc-btn">0</button>
+        <button class="calc-btn">/</button>
+        <button class="calc-btn">x</button>
+        <button class="calc-btn" id="reset-btn">reset</button>
+        <button class="calc-btn" id="equal-btn">=</button>
+      </section>
+    </main>
+  </div>
+  <Footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/alexandre-lins-14b190274/">Alexandre Lins</a>.
+    </div>
+  </Footer>
+</body>
+</html>
